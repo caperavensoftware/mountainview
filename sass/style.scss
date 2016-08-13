@@ -1,1 +1,33 @@
 @import './normalize';
+@import './mixins';
+@import './layout';
+@import './colors';
+
+header {
+  background: $primary-color;
+  height: 10%;
+  max-height: 80px;
+  color: white;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  z-index: 9000;
+}
+
+footer {
+  background: $primary-color2;
+  height: 5%;
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7000;
+}
+
+.body {
+  @include abolute-top-left(100%, 100%);
+}
+
+.content-body {
+  @include gradient();
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  z-index: 8000;
+}

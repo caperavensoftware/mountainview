@@ -1,9 +1,17 @@
 <template>
     <require from="./components/menu/menu"></require>
-    <head>
-        <h1>Center for Biblical Studies</h1>
-    </head>
-    <menu></menu>
-    <router-view></router-view>
-    <footer>copyright @Center for Biblical Studies</footer>
+
+    <div class="container orientation-vertical body">
+        <header>
+            <h1>Center for Biblical Studies</h1>
+        </header>
+
+        <div class="container fill-space content-body">
+            <router-view class="fill-space"></router-view>
+        </div>
+
+        <footer>
+            <div>copyright @Center for Biblical Studies</div>
+        </footer>
+    </div>
 </template>

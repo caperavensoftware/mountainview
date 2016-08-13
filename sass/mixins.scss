@@ -1,0 +1,18 @@
+@mixin abolute-top-left($width, $height) {
+  @include abolute-left(0, $width, $height);
+}
+
+@mixin abolute-left($top, $width, $height) {
+  position: absolute;
+  left:0;
+  top:$top;
+  width: $width;
+  height: $height;
+}
+
+@mixin gradient() {
+  background: -webkit-linear-gradient(left top, $primary-color,$primary-color2);
+  background: -o-linear-gradient(bottom right, $primary-color,$primary-color2);
+  background: -moz-linear-gradient(bottom right, $primary-color,$primary-color2);
+  background: linear-gradient(to bottom right, $primary-color,$primary-color2);
+}
