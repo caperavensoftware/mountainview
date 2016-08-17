@@ -1,1 +1,2 @@
-require("@pragmaproducts/build-utilities");
+require("build-utilities");
+require('require-dir')('build');

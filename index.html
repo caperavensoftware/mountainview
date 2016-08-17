@@ -6,22 +6,33 @@
     <title>Application Title</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="./jspm_packages/system.js"></script>
+    <script src="config.js"></script>
 </head>
 <body aurelia-app="main">
-<script>
-    requestAnimationFrame(function() {
-        loadScript('./jspm_packages/system.js', function() {
-            loadScript('./config.js', function() {
-                System.import('aurelia-bootstrapper');
-            });
-        });
-    });
-    function loadScript(scriptName, loadEvent) {
-        var script = document.createElement('script');
-        script.onload = loadEvent;
-        script.src = scriptName;
-        document.head.appendChild(script);
-    }
-</script>
+    <div class="container orientation-vertical body">
+        <header>
+            <img src="./../images/logo.png" alt="logo" class="logo"/>
+            <h1>Center for Biblical Studies</h1>
+        </header>
+
+        <div class="fill-space relative">
+            <img src="./../images/slogan.png" class="slogan" alt="slogan"></img>
+            <div class="content-body absolute100"></div>
+        </div>
+
+        <div class="container items-horizontal-center items-vertical-center orientation-vertical">
+            <h2>Loading Website</h2>
+        </div>
+
+        <footer>
+            <div>copyright @center for biblical studies</div>
+        </footer>
+    </div>
+
+    <script>
+        System.import('aurelia-bootstrapper');
+    </script>
 </body>
 </html>

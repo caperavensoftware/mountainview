@@ -9,11 +9,12 @@
   "author": "Johan Rabie",
   "license": "ISC",
   "devDependencies": {
-    "@pragmaproducts/build-utilities": "0.0.31"
+    "aurelia-bundler": "^0.4.0",
+    "build-utilities": "0.0.47"
   },
   "jspm": {
     "dependencies": {
-      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@@^1.0.0",
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0"
     },
     "devDependencies": {}
