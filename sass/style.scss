@@ -13,33 +13,31 @@ h1 {
 
 header {
   background: $primary-color;
-  height: 10%;
-  max-height: 80px;
   color: white;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
-  z-index: 9000;
   display: flex;
+
+  posiition: abolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 5rem;
 }
 
 footer {
   background: $primary-color2;
-  height: 5%;
-  max-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 7000;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3rem;
 }
 
-.body {
-  @include abolute-top-left(100%, 100%);
-}
-
-.content-body {
-  @include gradient();
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
-  z-index: 8000;
-  opacity: 0.95;
+body {
 }
 
 .logo {
@@ -53,21 +51,12 @@ footer {
   left: 2rem;
 }
 
-.relative {
-  position: relative;
-}
-
-.absolute100 {
+.gradient-overlay {
+  @include gradient();
   position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-router-view {
-  position: absolute;
-  top: 10rem;
-  left: 0rem;
-  width: 100%;
-  height: 100%;
-  z-index: 10000;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  bottom: 3rem;
+  opacity: 0.9;
 }

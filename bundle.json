@@ -22,7 +22,8 @@
         "aurelia-pal-browser",
         "aurelia-polyfills",
         "aurelia-task-queue",
-        "aurelia-metadata"
+        "aurelia-metadata",
+        "aurelia-fetch-client"
       ],
       "options": {
         "inject": true,

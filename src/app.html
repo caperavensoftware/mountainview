@@ -1,21 +1,20 @@
 <template>
     <require from="./components/menu/menu"></require>
 
-    <div class="container orientation-vertical body">
+        <footer>
+            <div>copyright @center for biblical studies</div>
+        </footer>
+
+        <div class="gradient-overlay"></div>
+
         <header>
             <img src="./../images/logo.png" alt="logo" class="logo"/>
             <h1>Center for Biblical Studies</h1>
         </header>
 
-        <div class="fill-space relative">
-            <img src="./../images/slogan.png" class="slogan" alt="slogan"></img>
-            <div class="content-body absolute100"></div>
-        </div>
+        <img src="./../images/slogan.png" class="slogan" alt="slogan"></img>
+
 
         <router-view></router-view>
 
-        <footer>
-            <div>copyright @center for biblical studies</div>
-        </footer>
-    </div>
 </template>
