@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "aurelia-bundler": "^0.4.0",
-    "build-utilities": "0.0.50"
+    "build-utilities": "0.0.73"
   },
   "jspm": {
     "dependencies": {
