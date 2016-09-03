@@ -6,6 +6,7 @@
     "images/**/*.*",
     "styles/**/*.css",
     "app/src/**/*.*",
-    "jspm_packages/system.js"
+    "jspm_packages/system.js",
+    "data/courses.json"
   ]
 }

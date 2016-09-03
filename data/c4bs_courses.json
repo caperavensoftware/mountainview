@@ -1,2 +1,324 @@
-[{"Id": 1,"Code": "MISS 221","NameNWU": "Missiological Principles and Priorities","Name": "Global Vision, Local Mission","Description": "Studies in disciple making and church planting","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/Miss221-websitefinal.pdf","Calendar": "http://www.c4bs.org/Resources/Documents/Courses/DiscipleMakingClassCalendar.pdf","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 2,"Code": "OTES 211","NameNWU": "Pentateuch","Name": "TORAH! TORAH! TORAH! The Books of Moses","Description": "Studies in the first five books of the OT","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTES211PentateuchStudyGuide2011.pdf","Calendar": "http://www.c4bs.org/Resources/Documents/Courses/Pentateuch.RevisedSchedule.pdf","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 3,"Code": "DOGM 211","NameNWU": "Ecclesiology and Soteriology","Name": "Ecclesiology and Soteriology","Description": "Ecclesiology and Soteriology","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/DOGM211.pdf","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 4,"Code": "DOGM 221","NameNWU": "Pneumatology and Angelology","Name": "Pneumatology and Angelology","Description": "Pneumatology and Angelology","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/DOGM221.pdf","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 5,"Code": "0TES 121","NameNWU": "Genesis","Name": "Genesis","Description": "Genesis","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTES121.pdf","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 6,"Code": "SF","NameNWU": "SF","Name": "Healthy Choices for Better Living (Spiritual Formation)","Description": "The practical study of the Spiritual Disciplines","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 7,"Code": "NTES 121","NameNWU": "Life of Christ","Name": "Life of Christ","Description": "Life of Christ","StudyGuide": "http://www.c4bs.org/Resources/Courses/NTES121/NTES121Life%20of%20Christ%20Syllabus.doc","Calendar": "http://www.c4bs.org/Resources/Courses/NTES121/LIFE%20OF%20CHRIST%20CALENDAR.2012.doc","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 8,"Code": "NTES 111","NameNWU": "New Testament Survey","Name": "Gospels to Glory: a Survey of the New Testament","Description": "New Testament Survey","StudyGuide": "http://www.c4bs.org/Resources/Courses/NTES111/NTES111NTSurveyStudyGuide.2012.doc","Calendar": "http://www.c4bs.org/Resources/Courses/NTES111/NTES111.Calendar.2012.doc","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 9,"Code": "NTES 321","NameNWU": "NTES 321","Name": "Letters of John and Revelation","Description": "Letters of John and Revelation","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/NTES321.pdf","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 10,"Code": "OTES 111","NameNWU": "Old Testament Survey","Name": "Old Testament Survey","Description": "The Old Testament from 30000 Feet","StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTSurvey.2012.pdf","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 11,"Code": "PAST 311","NameNWU": "Pastoral Counselling","Name": "Spiritual Search and Rescue (Lay Counseling Principles)","Description": "Spiritual Search and Rescue.
-Counseling Principles from the General Epistles","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 12,"Code": "NTES 221","NameNWU": "Pauline Epistles","Name": "Romans","Description": "Romans","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 13,"Code": "OTES 221","NameNWU": "Old Testament Literature Study","Name": "Moses to Messiah: a Study of the Old Testament Prophets","Description": "This course is a study of the lives and ministries of the Old Testament prophets...spokesmen for God, informing , confronting their cultures, warning of sin\'s consequences, pleading for repentance.","StudyGuide": "http://c4bs.org/Resources/Courses/OTES%20Prophets/OTES%20221%20Old%20Testament%20Prophetic%20Literature%20Study%20Guide%202012.doc","Calendar": "http://www.c4bs.org/Resources/Courses/OTES%20Prophets/Calendar.Prophets.doc","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 14,"Code": "HERM 322","NameNWU": "Hermeneutics: The Interpretation of Scripture","Name": "What Makes the Bible Unique?","Description": "The Integrity and Interpretation of Scripture","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 16,"Code": "TEOL 111","NameNWU": "Theology Survey","Name": "What does the Bible say about?","Description": "A study of various doctrines as identified in systematic theology","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 17,"Code": "PHIL 221","NameNWU": "Introduction to Biblical Worldview","Name": "Our World from Outer Space","Description": "Developing a Biblical Worldview","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 49,"ImageUrl": "1"}, {"Id": 18,"Code": "DOGM221A","NameNWU": "Bibliology & Pneumatology","Name": "Walking in the Spirit (Term 1)","Description": "Understanding the Holy Spirit\'s Person and Purpose","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 49,"ImageUrl": "1"}, {"Id": 20,"Code": "DOGM221B","NameNWU": "Pneumatology & Angelology","Name": "Walking in the Spirit (Term 2)","Description": "Understanding the Holy Spirit\'s Person and Purpose","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 21,"Code": "C4BS20130820","NameNWU": "No NWU name","Name": "First Responders and Post Taumatic Stress","Description": "This course was prepared for and presented to the Helderberg Fire Brigade, Western Cape, South Africa. The seminar investigates various ways first responders attempt to handle post traumatic stress with emphasis on helpful and healthy means for recovery.","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 22,"Code": "DOGM211A","NameNWU": "Anthropology","Name": "Man Under the Microscope","Description": "The investigation of mankind from a Biblical worldview: his creation by the direct act of God; his intrinsic value as an image-bearer of God, etc.","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 23,"Code": "DOGM211B","NameNWU": "Hamartiology","Name": "Sin: Humanity\\\'s Terminal Disease","Description": "A study of the doctrine of sin and its effects on the human race","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 24,"Code": "BENT401","NameNWU": "Exposition of the Book of Hebrews","Name": "Jesus is the Best: The Book of Hebrews","Description": "Exposition of Hebrews","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 25,"Code": "25.08.2013","NameNWU": "","Name": "How do I fit?","Description": "Spiritual Gifts Seminar","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 26,"Code": "02.03.2014","NameNWU": "","Name": "Enlarging the Tent...Strengthening the Stakes","Description": "Church Planting Seminar","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 28,"Code": "PE","NameNWU": "Prison Epistles - Study of Colossians","Name": "ICHTHUS","Description": "Exposition of the Book of Colossians","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 29,"Code": "0004.2014.01","NameNWU": "","Name": "David: the Man after God\\\'s Own Heart","Description": "A character study of David","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 30,"Code": "CHR","NameNWU": "Christology","Name": "The Jesus I Want to Know","Description": "Christology","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 33,"Code": "EOD 2015","NameNWU": "End of Days","Name": "Biblical Prophecy Seminar","Description": "A study of future events for the church, Israel, the nations, etc.","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 34,"Code": "2015-07","NameNWU": "","Name": "The Forgotten Father","Description": "A study of God the Father","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 35,"Code": "","NameNWU": "","Name": "Contemporary Christian Living: Finding the Balance","Description": "How do Christians make godly choices while confronted by an ungodly culture?","StudyGuide": "","Calendar": "Term 3, 2015","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 43,"Code": "2015-4-1","NameNWU": "","Name": "In the Shadow of the Giants","Description": "","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 44,"Code": "2015-4-2","NameNWU": "","Name": "Jesus Christ, B. C.","Description": "","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 45,"Code": "","NameNWU": "","Name": "When Bad Things Happen to God\\\'s Peoplel","Description": "Studies in 1 Peter","StudyGuide": "","Calendar": "1st Term - 2016","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}]
+[
+  {
+    "Id": 1,
+    "Code": "MISS 221",
+    "NameNWU": "Missiological Principles and Priorities",
+    "Name": "Global Vision, Local Mission",
+    "Description": "Studies in disciple making and church planting",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/Miss221-websitefinal.pdf",
+    "Calendar": "http://www.c4bs.org/Resources/Documents/Courses/DiscipleMakingClassCalendar.pdf",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 2,
+    "Code": "OTES 211",
+    "NameNWU": "Pentateuch",
+    "Name": "TORAH! TORAH! TORAH! The Books of Moses",
+    "Description": "Studies in the first five books of the OT",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTES211PentateuchStudyGuide2011.pdf",
+    "Calendar": "http://www.c4bs.org/Resources/Documents/Courses/Pentateuch.RevisedSchedule.pdf",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 3,
+    "Code": "DOGM 211",
+    "NameNWU": "Ecclesiology and Soteriology",
+    "Name": "Ecclesiology and Soteriology",
+    "Description": "Ecclesiology and Soteriology",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/DOGM211.pdf",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 4,
+    "Code": "DOGM 221",
+    "NameNWU": "Pneumatology and Angelology",
+    "Name": "Pneumatology and Angelology",
+    "Description": "Pneumatology and Angelology",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/DOGM221.pdf",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 5,
+    "Code": "0TES 121",
+    "NameNWU": "Genesis",
+    "Name": "Genesis",
+    "Description": "Genesis",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTES121.pdf",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 6,
+    "Code": "SF",
+    "NameNWU": "SF",
+    "Name": "Healthy Choices for Better Living (Spiritual Formation)",
+    "Description": "The practical study of the Spiritual Disciplines",
+    "StudyGuide": "NULL",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 7,
+    "Code": "NTES 121",
+    "NameNWU": "Life of Christ",
+    "Name": "Life of Christ",
+    "Description": "Life of Christ",
+    "StudyGuide": "http://www.c4bs.org/Resources/Courses/NTES121/NTES121Life%20of%20Christ%20Syllabus.doc",
+    "Calendar": "http://www.c4bs.org/Resources/Courses/NTES121/LIFE%20OF%20CHRIST%20CALENDAR.2012.doc",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 8,
+    "Code": "NTES 111",
+    "NameNWU": "New Testament Survey",
+    "Name": "Gospels to Glory: a Survey of the New Testament",
+    "Description": "New Testament Survey",
+    "StudyGuide": "http://www.c4bs.org/Resources/Courses/NTES111/NTES111NTSurveyStudyGuide.2012.doc",
+    "Calendar": "http://www.c4bs.org/Resources/Courses/NTES111/NTES111.Calendar.2012.doc",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 9,
+    "Code": "NTES 321",
+    "NameNWU": "NTES 321",
+    "Name": "Letters of John and Revelation",
+    "Description": "Letters of John and Revelation",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/NTES321.pdf",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 10,
+    "Code": "OTES 111",
+    "NameNWU": "Old Testament Survey",
+    "Name": "Old Testament Survey",
+    "Description": "The Old Testament from 30000 Feet",
+    "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/OTSurvey.2012.pdf",
+    "Calendar": "NULL",
+    "StartDate": "0000-00-00 00:00:00",
+    "EndDate": "0000-00-00 00:00:00",
+    "FacultyId": 1,
+    "IsCurrentlyRunning": 48,
+    "ImageUrl": "1"
+  },
+  {
+    "Id": 11,
+    "Code": "PAST 311",
+    "NameNWU": "Pastoral Counselling",
+    "Name": "Spiritual Search and Rescue (Lay Counseling Principles)",
+    "Description": "Spiritual Search and Rescue.
+    Counseling
+    Principles
+    from
+    the
+    General
+    Epistles
+    ","
+    StudyGuide
+    ": "
+    NULL
+    ","
+    Calendar
+    ": "
+    NULL
+    ","
+    StartDate
+    ": "
+    0
+    0
+    0
+    0
+    -0
+    0
+    -0
+    0
+    0
+    0: 0
+    0: 0
+    0
+    ","
+    EndDate
+    ": "
+    0
+    0
+    0
+    0
+    -0
+    0
+    -0
+    0
+    0
+    0: 0
+    0: 0
+    0
+    ","
+    FacultyId
+    ": 1,"
+    IsCurrentlyRunning
+    ": 48,"
+    ImageUrl
+    ": "
+    1
+    "}, {"
+    Id
+    ": 12,"
+    Code
+    ": "
+    NTES
+    221
+    ","
+    NameNWU
+    ": "
+    Pauline
+    Epistles
+    ","
+    Name
+    ": "
+    Romans
+    ","
+    Description
+    ": "
+    Romans
+    ","
+    StudyGuide
+    ": "
+    NULL
+    ","
+    Calendar
+    ": "
+    NULL
+    ","
+    StartDate
+    ": "
+    0
+    0
+    0
+    0
+    -0
+    0
+    -0
+    0
+    0
+    0: 0
+    0: 0
+    0
+    ","
+    EndDate
+    ": "
+    0
+    0
+    0
+    0
+    -0
+    0
+    -0
+    0
+    0
+    0: 0
+    0: 0
+    0
+    ","
+    FacultyId
+    ": 1,"
+    IsCurrentlyRunning
+    ": 48,"
+    ImageUrl
+    ": "
+    1
+    "}, {"
+    Id
+    ": 13,"
+    Code
+    ": "
+    OTES
+    221
+    ","
+    NameNWU
+    ": "
+    Old
+    Testament
+    Literature
+    Study
+    ","
+    Name
+    ": "
+    Moses
+    to
+    Messiah: a
+    Study
+    of
+    the
+    Old
+    Testament
+    Prophets
+    ","
+    Description
+    ": "
+    This
+    course
+    is
+    a
+    study
+    of
+    the
+    lives
+    and
+    ministries
+    of
+    the
+    Old
+    Testament
+    prophets
+    .
+    .
+    .
+    spokesmen
+    for
+    God,
+    informing,
+    confronting
+    their
+    cultures,
+    warning
+    of
+    sin
+    \
+    's consequences, pleading for repentance.","StudyGuide": "http://c4bs.org/Resources/Courses/OTES%20Prophets/OTES%20221%20Old%20Testament%20Prophetic%20Literature%20Study%20Guide%202012.doc","Calendar": "http://www.c4bs.org/Resources/Courses/OTES%20Prophets/Calendar.Prophets.doc","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 14,"Code": "HERM 322","NameNWU": "Hermeneutics: The Interpretation of Scripture","Name": "What Makes the Bible Unique?","Description": "The Integrity and Interpretation of Scripture","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 16,"Code": "TEOL 111","NameNWU": "Theology Survey","Name": "What does the Bible say about?","Description": "A study of various doctrines as identified in systematic theology","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 17,"Code": "PHIL 221","NameNWU": "Introduction to Biblical Worldview","Name": "Our World from Outer Space","Description": "Developing a Biblical Worldview","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": 1,"IsCurrentlyRunning": 49,"ImageUrl": "1"}, {"Id": 18,"Code": "DOGM221A","NameNWU": "Bibliology & Pneumatology","Name": "Walking in the Spirit (Term 1)","Description": "Understanding the Holy Spirit\'s Person and Purpose","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 49,"ImageUrl": "1"}, {"Id": 20,"Code": "DOGM221B","NameNWU": "Pneumatology & Angelology","Name": "Walking in the Spirit (Term 2)","Description": "Understanding the Holy Spirit\'s Person and Purpose","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 21,"Code": "C4BS20130820","NameNWU": "No NWU name","Name": "First Responders and Post Taumatic Stress","Description": "This course was prepared for and presented to the Helderberg Fire Brigade, Western Cape, South Africa. The seminar investigates various ways first responders attempt to handle post traumatic stress with emphasis on helpful and healthy means for recovery.","StudyGuide": "NULL","Calendar": "NULL","StartDate": "0000-00-00 00:00:00","EndDate": "0000-00-00 00:00:00","FacultyId": -1,"IsCurrentlyRunning": 48,"ImageUrl": "1"}, {"Id": 22,"Code": "DOGM211A","NameNWU": "Anthropology","Name": "Man Under the Microscope","Description": "The investigation of mankind from a Biblical worldview: his creation by the direct act of God; his intrinsic value as an image-bearer of God, etc.","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 23,"Code": "DOGM211B","NameNWU": "Hamartiology","Name": "Sin: Humanity\\\'s Terminal Disease","Description": "A study of the doctrine of sin and its effects on the human race","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 24,"Code": "BENT401","NameNWU": "Exposition of the Book of Hebrews","Name": "Jesus is the Best: The Book of Hebrews","Description": "Exposition of Hebrews","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 25,"Code": "25.08.2013","NameNWU": "","Name": "How do I fit?","Description": "Spiritual Gifts Seminar","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 26,"Code": "02.03.2014","NameNWU": "","Name": "Enlarging the Tent...Strengthening the Stakes","Description": "Church Planting Seminar","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 28,"Code": "PE","NameNWU": "Prison Epistles - Study of Colossians","Name": "ICHTHUS","Description": "Exposition of the Book of Colossians","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 29,"Code": "0004.2014.01","NameNWU": "","Name": "David: the Man after God\\\'s Own Heart","Description": "A character study of David","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 30,"Code": "CHR","NameNWU": "Christology","Name": "The Jesus I Want to Know","Description": "Christology","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 33,"Code": "EOD 2015","NameNWU": "End of Days","Name": "Biblical Prophecy Seminar","Description": "A study of future events for the church, Israel, the nations, etc.","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 34,"Code": "2015-07","NameNWU": "","Name": "The Forgotten Father","Description": "A study of God the Father","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 35,"Code": "","NameNWU": "","Name": "Contemporary Christian Living: Finding the Balance","Description": "How do Christians make godly choices while confronted by an ungodly culture?","StudyGuide": "","Calendar": "Term 3, 2015","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 43,"Code": "2015-4-1","NameNWU": "","Name": "In the Shadow of the Giants","Description": "","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 44,"Code": "2015-4-2","NameNWU": "","Name": "Jesus Christ, B. C.","Description": "","StudyGuide": "","Calendar": "","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}, {"Id": 45,"Code": "","NameNWU": "","Name": "When Bad Things Happen to God\\\'s Peoplel","Description": "Studies in 1 Peter","StudyGuide": "","Calendar": "1st Term - 2016","StartDate": null,"EndDate": null,"FacultyId": -1,"IsCurrentlyRunning": null,"ImageUrl": null}]

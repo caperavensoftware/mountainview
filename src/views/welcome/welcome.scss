@@ -1,0 +1,30 @@
+@import "./../../../sass/common";
+@import "./../../../sass/dimentions";
+
+.toolbar {
+  @include toolbar();
+
+  h3 {
+    padding: 0;
+    margin: 0;
+    line-height: $toolbar-height;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+
+.tool-button-drawer {
+  @include tool-button-drawer();
+  background: green;
+  position: absolute;
+}
+
+#courses {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}

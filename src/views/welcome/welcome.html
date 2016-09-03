@@ -1,18 +1,10 @@
 <template>
-    <h2>Welcome</h2>
+    <require from="./welcome.css" as="scoped"></require>
 
-    <div class="course-carosel">
-        <div class="course course1">
-            <img src.bind="course1.image" alt=""></img>
-            <div>${course1.name}</div>
-        </div>
-        <div class="course course2">
-            <img src.bind="course2.image" alt=""></img>
-            <div>${course2.name}</div>
-        </div>
-        <div class="course course3">
-            <img src.bind="course3.image" alt=""></img>
-            <div>${course3.name}</div>
-        </div>
+    <div class="toolbar">
+        <button class="tool-button-drawer"></button>
+        <h3>Courses</h3>
     </div>
+
+    <ul id="courses"></ul>
 </template>

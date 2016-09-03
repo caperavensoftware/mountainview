@@ -1,62 +1,44 @@
-@import './normalize';
-@import './mixins';
-@import './layout';
-@import './colors';
-
-html {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-  font-size: 2rem;
+body {
+  font-size: 16px;
 }
 
 header {
-  background: $primary-color;
-  color: white;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
-  display: flex;
-
-  posiition: abolute;
-  left: 0;
+  position: fixed;
   top: 0;
+  left: 0;
   right: 0;
-  height: 5rem;
+  height: 3rem;
+  background: #efefef;
 }
 
 footer {
-  background: $primary-color2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: fixed;
   bottom: 0;
-  height: 3rem;
-}
-
-body {
-}
-
-.logo {
-  width: 10rem;
-  height: 10rem;
-}
-
-.slogan {
-  position: absolute;
-  bottom: 5rem;
-  left: 2rem;
-}
-
-.gradient-overlay {
-  @include gradient();
-  position: absolute;
-  top: 5rem;
   left: 0;
   right: 0;
-  bottom: 3rem;
-  opacity: 0.9;
+  height: 2rem;
+  background: #efefef;
+}
+
+router-view {
+  position: fixed;
+  top: 3rem;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 3rem;
+}
+
+footer span {
+  display: block;
+  line-height: 2rem;
+  text-align: center;
 }
