@@ -1,26 +1,32 @@
-// import * as courses from './../../../../data/c4bs_courses.json!text';
-// import * as seminars from './../../../../data/c4bs_seminars.json!text';
-
 import {bindable} from 'aurelia-framework';
 
-class Course {
-    image: string;
-    name: string;
-
-    constructor(image, name) {
-        this.image = image;
-        this.name = name;
-    }
-}
-
 export class Welcome {
-    course1: Course;
-    course2: Course;
-    course3: Course;
+    courses;
+    welcomeWorker
 
     constructor() {
-        this.course1 = new Course('https://c4bs.org/course-images/Genesis.jpg', "Genesis");
-        this.course2 = new Course('https://c4bs.org/course-images/Ecclesiology.jpg', "Ecclesiology");
-        this.course3 = new Course('https://c4bs.org/course-images/Moses-to-Messiah.jpg', "Moses-to-Messiah");
+        this.welcomeWorker = new Worker("./app/src/webworkers/welcome-worker.js");
+        this.welcomeWorker.onmessage = this.onWelcomeWorkerMessage;
+        this.loadCourses();
+    }
+
+    onWelcomeWorkerMessage(event) {
+        console.log(event.data)
+    }
+
+    loadCourses() {
+        const link = document.getElementById("coursesData");
+        this.courses = JSON.parse((<any>link).import.querySelector("body").innerHTML);
+
+        this.welcomeWorker.postMessage("greet");
+    }
+
+    detached() {
+        if (this.welcomeWorker) {
+            this.welcomeWorker.terminate();
+            this.welcomeWorker = null;
+        }
+
+        this.courses = null;
     }
 }
