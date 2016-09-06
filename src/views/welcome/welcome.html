@@ -2,11 +2,14 @@
     <require from="./welcome.css" as="scoped"></require>
 
     <div class="toolbar">
-        <button class="tool-button-drawer"></button>
+        <button class="tool-button-drawer">
+            <img src="images/back-chevron.svg"></img>
+        </button>
+
         <h3 click.delegate="itemSelected($event)">Courses</h3>
     </div>
 
     <ul id="courses">
-        <li repeat.for="course of courses">${course.Name}</li>
+        <li repeat.for="course of courses" click.delegate="itemSelected($event)">${course.Name}</li>
     </ul>
 </template>
