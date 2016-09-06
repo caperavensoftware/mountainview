@@ -6,5 +6,7 @@
         <h3 click.delegate="itemSelected($event)">Courses</h3>
     </div>
 
-    <ul id="courses"></ul>
+    <ul id="courses">
+        <li repeat.for="course of courses">${course.Name}</li>
+    </ul>
 </template>
