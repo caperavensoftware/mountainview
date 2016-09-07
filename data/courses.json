@@ -4,7 +4,169 @@
   "NameNWU": "Missiological Principles and Priorities",
   "Name": "Global Vision, Local Mission",
   "Description": "Studies in disciple making and church planting",
-  "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/Miss221-websitefinal.pdf"
+  "StudyGuide": "http://www.c4bs.org/Resources/Documents/Courses/Miss221-websitefinal.pdf",
+  "Seminars": [
+    {
+      "Id": 1,
+      "Name": "Seminar 01a",
+      "Description": "Church Planting: Introduction",
+      "SeminarDate": "2011-07-24 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/cb24.07.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/globalvision.sem1a.pdf"
+    },
+    {
+      "Id": 2,
+      "Name": "Seminar 01b",
+      "Description": "Church Planting: Biblical Foundations - the Priority of the Local Church",
+      "SeminarDate": "2011-07-31 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb31.07.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/globalvision.sem1b.pdf"
+    },
+    {
+      "Id": 3,
+      "Name": "Seminar 02",
+      "Description": "Church Planting: Self-Producing Congregations",
+      "SeminarDate": "2011-08-07 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb.07.08.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/gvis.sem2.pdf"
+    },
+    {
+      "Id": 4,
+      "Name": "Seminar 03",
+      "Description": "Church planting - Organizing a Church Plant &amp; Challenges to face / pitfalls",
+      "SeminarDate": "2011-08-14 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb.14.08.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/global vision.sem4.pdf"
+    },
+    {
+      "Id": 5,
+      "Name": "Seminar 04",
+      "Description": "Church Planting: The Vitality of Teamwork (This seminar was not covered)",
+      "SeminarDate": "2011-08-14 00:00:00",
+      "AudioFile": "NULL",
+      "SlidesFile": "NULL"
+    },
+    {
+      "Id": 6,
+      "Name": "Seminar 05",
+      "Description": "Church Planting: Thinking Strategically",
+      "SeminarDate": "2011-08-21 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb.21.08.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/sem5.pdf"
+    },
+    {
+      "Id": 7,
+      "Name": "Seminar 06",
+      "Description": "Church Planting: Initial Methodology",
+      "SeminarDate": "2011-08-28 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb28.08.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/Sem6.pdf"
+    },
+    {
+      "Id": 8,
+      "Name": "Seminar 07",
+      "Description": "Church Planting: Contemporary Models of Church Growth",
+      "SeminarDate": "2011-09-04 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb04.09.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/Sem 7.pdf"
+    },
+    {
+      "Id": 9,
+      "Name": "Seminar 08",
+      "Description": "Church Planting: Towards a Biblical Model of Church Growth",
+      "SeminarDate": "2011-09-11 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb11.09.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/Sem8.pdf"
+    },
+    {
+      "Id": 11,
+      "Name": "Seminar 09",
+      "Description": "Disciple Making: The Message and the Mission",
+      "SeminarDate": "2011-10-09 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources//Courses/MISS%20221/Seminars/cb09.10.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/gvsem9.pdf"
+    },
+    {
+      "Id": 12,
+      "Name": "Seminar 10",
+      "Description": "Disciple Making: Evaluating Outreach Tools",
+      "SeminarDate": "2011-10-15 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/goodsoil1.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/GoodSoil1.pdf"
+    },
+    {
+      "Id": 13,
+      "Name": "Seminar 11",
+      "Description": "Disciple Making: The Story of Hope",
+      "SeminarDate": "2011-10-15 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/goodsoil2.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/GoodSoil2.pdf"
+    },
+    {
+      "Id": 14,
+      "Name": "Seminar 12",
+      "Description": "Disciple Making: The Way to Joy",
+      "SeminarDate": "2011-10-15 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/goodsoil3.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/GoodSoil3.pdf"
+    },
+    {
+      "Id": 15,
+      "Name": "Seminar 13 ",
+      "Description": "Disciple Making: Lifestyle Evangelism",
+      "SeminarDate": "2011-10-16 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb16.10.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/gvis.sem13.pdf"
+    },
+    {
+      "Id": 16,
+      "Name": "Seminar 14",
+      "Description": "Disciple Making: Lifestyle Evangelism",
+      "SeminarDate": "2011-10-30 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb30.10.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/Lifestyle.two.pdf"
+    },
+    {
+      "Id": 17,
+      "Name": "Seminar 15",
+      "Description": "Disciple Making: The Spirit-Filled Life",
+      "SeminarDate": "2011-10-30 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb06.11.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/witness.sem.pdf"
+    },
+    {
+      "Id": 18,
+      "Name": "Seminar 16",
+      "Description": "Disciple Making: Spirit-Led Ministry (Pt. 1)",
+      "SeminarDate": "2011-11-06 00:00:00",
+      "AudioFile": "http://c4bs.org/Resources/Courses/MISS%20221/Seminars/cb06.11.2011b.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/witness.sem.pdf"
+    },
+    {
+      "Id": 19,
+      "Name": "Seminar 17",
+      "Description": "Disciple Making: Spirit-Led Ministry (Pt. 2)",
+      "SeminarDate": "2011-11-13 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb13.11.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/global.13.11.2011.pdf"
+    },
+    {
+      "Id": 20,
+      "Name": "Seminar 18",
+      "Description": "Disciple Making: Outreach via Trials/Suffering",
+      "SeminarDate": "2011-11-20 00:00:00",
+      "AudioFile": "http://c4bs.org/Resources/Courses/MISS%20221/Seminars/cb20.11.2011.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/sem18.pdf"
+    },
+    {
+      "Id": 21,
+      "Name": "Seminar 19",
+      "Description": "Disciple Making: Outreach in a Multi-Cultural Society",
+      "SeminarDate": "2011-11-27 00:00:00",
+      "AudioFile": "http://www.c4bs.org/Resources/Courses/MISS%20221/Seminars/cb27.11.2011final.mp3",
+      "SlidesFile": "http://www.c4bs.org/Resources/Courses/MISS 221/Seminars/gvis.finalsem.pdf"
+    }
+  ]
 }, {
   "Id": 2,
   "Code": "OTES 211",

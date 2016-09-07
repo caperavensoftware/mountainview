@@ -10,6 +10,10 @@
     </div>
 
     <ul id="courses">
-        <li repeat.for="course of courses" click.delegate="itemSelected($event)">${course.Name}</li>
+        <li repeat.for="course of courses" click.delegate="courseSelected($event)" data-id.bind="course.Id">${course.Name}</li>
+    </ul>
+
+    <ul id="seminars" aria-hidden="true">
+        <li repeat.for="seminar of seminars" click.delegate="seminarSelected($event)" data-id.bind="seminar.Id">${seminar.Name}</li>
     </ul>
 </template>

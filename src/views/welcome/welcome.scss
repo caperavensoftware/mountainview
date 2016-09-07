@@ -21,7 +21,7 @@
   position: absolute;
 }
 
-#courses {
+#courses, #seminars {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -29,8 +29,9 @@
   position: absolute;
   top:2rem;
   bottom: 0;
-  left: 0;
   right: 0;
+  width: 100%;
+  max-width: 380px;
   background: $toolbar-background;
 
   li {
@@ -56,4 +57,10 @@
     height: 1rem;
     background-repeat: no-repeat;
   }
+}
+
+#seminars {
+  will-change: transform;
+  transform: translateX(381px);
+  transition: all 0.2s ease-out;
 }
