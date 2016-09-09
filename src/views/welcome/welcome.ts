@@ -1,5 +1,4 @@
 import {bindable} from 'aurelia-framework';
-import "aurelia-polyfills";
 const createMenuMessage = "create-menu";
 
 enum states {
@@ -20,10 +19,6 @@ export class Welcome {
 
     loadCourses() {
         const link = document.getElementById("coursesData");
-
-        console.log("hello world");
-
-
         this.courses = JSON.parse((<any>link).import.querySelector("body").innerHTML);
     }
 

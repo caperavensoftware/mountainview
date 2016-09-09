@@ -8,6 +8,6 @@
     "app/src/**/*.*",
     "jspm_packages/system.js",
     "data/courses.json",
-    "webcomponents/webcomponents.js"
+    "webcomponents/webcomponents.min.js"
   ]
 }
