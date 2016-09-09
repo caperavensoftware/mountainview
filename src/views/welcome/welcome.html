@@ -1,19 +1,22 @@
 <template>
     <require from="./welcome.css" as="scoped"></require>
 
-    <div class="toolbar">
-        <button class="tool-button-drawer">
-            <img src="images/back-chevron.svg"></img>
-        </button>
+    <div class="side-menu">
+        <div class="toolbar">
+            <h3>${currentTitle}</h3>
 
-        <h3 click.delegate="itemSelected($event)">Courses</h3>
+            <button class="tool-button-drawer hidden" click.delegate="back()" id="btnBack">
+                <img src="images/back-chevron.svg"></img>
+            </button>
+        </div>
+
+        <ul id="courses">
+            <li repeat.for="course of courses" click.delegate="courseSelected($event)" data-id.bind="course.Id">${course.Name}</li>
+        </ul>
+
+        <ul id="seminars" aria-hidden="true">
+            <li repeat.for="seminar of seminars" click.delegate="seminarSelected($event)" data-id.bind="seminar.Id">${seminar.Name}</li>
+        </ul>
     </div>
 
-    <ul id="courses">
-        <li repeat.for="course of courses" click.delegate="courseSelected($event)" data-id.bind="course.Id">${course.Name}</li>
-    </ul>
-
-    <ul id="seminars" aria-hidden="true">
-        <li repeat.for="seminar of seminars" click.delegate="seminarSelected($event)" data-id.bind="seminar.Id">${seminar.Name}</li>
-    </ul>
 </template>

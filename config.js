@@ -40,6 +40,8 @@ System.config({
       "npm:aurelia-path@1.0.0/aurelia-path.js",
       "npm:aurelia-polyfills@1.0.0.js",
       "npm:aurelia-polyfills@1.0.0/aurelia-polyfills.js",
+      "npm:aurelia-polyfills@1.1.0.js",
+      "npm:aurelia-polyfills@1.1.0/aurelia-polyfills.js",
       "npm:aurelia-route-recognizer@1.0.0.js",
       "npm:aurelia-route-recognizer@1.0.0/aurelia-route-recognizer.js",
       "npm:aurelia-router@1.0.2.js",
@@ -92,6 +94,7 @@ System.config({
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0",
     "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0",
     "aurelia-framework": "npm:aurelia-framework@1.0.1",
+    "aurelia-polyfills": "npm:aurelia-polyfills@1.1.0",
     "typescript": "npm:typescript@1.8.10",
     "github:jspm/nodelibs-os@0.1.0": {
       "os-browserify": "npm:os-browserify@0.1.2"
@@ -159,6 +162,9 @@ System.config({
       "aurelia-pal": "npm:aurelia-pal@1.0.0"
     },
     "npm:aurelia-polyfills@1.0.0": {
+      "aurelia-pal": "npm:aurelia-pal@1.0.0"
+    },
+    "npm:aurelia-polyfills@1.1.0": {
       "aurelia-pal": "npm:aurelia-pal@1.0.0"
     },
     "npm:aurelia-route-recognizer@1.0.0": {

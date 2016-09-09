@@ -1,5 +1,5 @@
 import {bindable} from 'aurelia-framework';
-
+import "aurelia-polyfills";
 const createMenuMessage = "create-menu";
 
 enum states {
@@ -10,14 +10,20 @@ enum states {
 export class Welcome {
     @bindable courses;
     @bindable seminars;
+    @bindable currentTitle;
 
     currentState: states = states.showingCourses;
 
     constructor() {
+        this.currentTitle = "Courses";
     }
 
     loadCourses() {
         const link = document.getElementById("coursesData");
+
+        console.log("hello world");
+
+
         this.courses = JSON.parse((<any>link).import.querySelector("body").innerHTML);
     }
 
@@ -48,16 +54,32 @@ export class Welcome {
         });
         
         this.seminars = course.Seminars;
-
+        this.currentTitle = course.Name;
         this.setState(states.showingSeminars);
     }
 
     setState(state: states) {
+        const seminarElement = document.getElementById("seminars");
+        const btnBack = document.getElementById("btnBack");
+
         if (state === states.showingSeminars) {
-            document.getElementById("seminars").style.transform = "translateX(0)";
+            btnBack.classList.remove("hidden");
+
+            requestAnimationFrame(() => {
+                seminarElement.style.transform = "translateX(0)";
+            })
         }
         else {
-            document.getElementById("seminars").style.transform = "translateX(381)";
+            this.currentTitle = "Courses";
+            btnBack.classList.add("hidden");
+
+            requestAnimationFrame(() => {
+                seminarElement.style.transform = "translateX(381px)";
+            })
         }
+    }
+
+    back() {
+        this.setState(states.showingCourses);
     }
 }

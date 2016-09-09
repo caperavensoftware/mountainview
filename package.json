@@ -4,20 +4,29 @@
   "description": "Center for Biblical Studies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test",
+    "test:ui": "gulp build:all && gulp test:e2e",
+    "build": "gulp build:all",
+    "watch:ui": "gulp build:all && gulp watch:ui",
+    "watch:all": "gulp build:all && gulp watch:all",
+    "run": "gulp build:all && gulp serve"
   },
   "author": "Johan Rabie",
   "license": "ISC",
   "devDependencies": {
     "aurelia-bundler": "^0.4.0",
-    "build-utilities": "0.0.73"
+    "build-utilities": "0.0.82"
   },
   "jspm": {
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0",
-      "aurelia-framework": "npm:aurelia-framework@^1.0.0"
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0",
+      "aurelia-polyfills": "npm:aurelia-polyfills@^1.1.0"
     },
     "devDependencies": {}
+  },
+  "dependencies": {
+    "webcomponents.js": "^0.7.22"
   }
 }

@@ -9,6 +9,9 @@
 @mixin tool-button-drawer {
   width: $toolbar-height;
   height: $toolbar-height;
+  border-width: 0;
+  background: whitesmoke;
+  cursor: pointer;
 
   img {
     width: 1rem;

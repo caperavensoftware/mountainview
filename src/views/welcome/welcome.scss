@@ -16,9 +16,26 @@
   }
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+button:focus {
+  outline:0;
+}
+
 .tool-button-drawer {
   @include tool-button-drawer();
   position: absolute;
+}
+
+.side-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 380px;
 }
 
 #courses, #seminars {
@@ -26,12 +43,11 @@
   margin: 0;
   padding: 0;
   overflow-y: auto;
+  width: inherit;
+  height: inherit;
   position: absolute;
-  top:2rem;
+  top: 2rem;
   bottom: 0;
-  right: 0;
-  width: 100%;
-  max-width: 380px;
   background: $toolbar-background;
 
   li {
