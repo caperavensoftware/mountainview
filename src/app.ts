@@ -1,5 +1,14 @@
+import { inject } from 'aurelia-framework';
+import { EventAggregator } from 'aurelia-event-aggregator';
+
+@inject(EventAggregator)
 export class App {
     router = null;
+    eventAggregator = null;
+
+    constructor(eventAggregator) {
+        this.eventAggregator = eventAggregator;
+    }
 
     configureRouter(config, router) {
         config.title = 'Center for Biblical Studies';
@@ -9,5 +18,9 @@ export class App {
         ]);
 
         this.router = router;
+    }
+
+    menu() {
+        this.eventAggregator.publish('menu', {click: true});
     }
 }

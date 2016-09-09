@@ -1,5 +1,5 @@
 @import "./colors";
-@import "./dimentions";
+@import "dimentions";
 
 @mixin toolbar {
   height: $toolbar-height;
@@ -7,10 +7,10 @@
 }
 
 @mixin tool-button-drawer {
-  width: $toolbar-height;
+  width: $toolbar-height * 2;
   height: $toolbar-height;
   border-width: 0;
-  background: whitesmoke;
+  background: transparent;
   cursor: pointer;
 
   img {

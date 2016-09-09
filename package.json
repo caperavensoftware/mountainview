@@ -4,6 +4,7 @@
   "description": "Center for Biblical Studies",
   "main": "index.js",
   "scripts": {
+    "audit": "gulp clean:coverage && gulp test:everything && gulp test:generate-report",
     "test": "gulp test",
     "test:ui": "gulp build:all && gulp test:e2e",
     "build": "gulp build:all",
@@ -20,6 +21,7 @@
   "jspm": {
     "dependencies": {
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0",
       "aurelia-framework": "npm:aurelia-framework@^1.0.0",
       "aurelia-polyfills": "npm:aurelia-polyfills@^1.1.0"

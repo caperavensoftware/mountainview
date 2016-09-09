@@ -1,20 +1,25 @@
-import {bindable} from 'aurelia-framework';
-const createMenuMessage = "create-menu";
+import {bindable, inject} from 'aurelia-framework';
+import { EventAggregator } from 'aurelia-event-aggregator';
 
 enum states {
     showingCourses = 1,
     showingSeminars = 2
 }
 
+@inject(EventAggregator)
 export class Welcome {
     @bindable courses;
     @bindable seminars;
     @bindable currentTitle;
+    eventAggregator;
+    menuSubscription;
+    menuIsOpen = true;
 
     currentState: states = states.showingCourses;
 
-    constructor() {
+    constructor(eventAggregator) {
         this.currentTitle = "Courses";
+        this.eventAggregator = eventAggregator;
     }
 
     loadCourses() {
@@ -23,12 +28,26 @@ export class Welcome {
     }
 
     attached() {
+        this.menuSubscription = this.eventAggregator.subscribe("menu", (response) => this.toggleMenu(response));
         this.loadCourses();
-        
     }
 
     detached() {
+        this.menuSubscription.dispose();
         this.courses = null;
+    }
+
+    toggleMenu(response) {
+        const menuDrawer = document.getElementById("menu-drawer");
+
+        if (this.menuIsOpen) {
+            menuDrawer.style.transform = "translateX(382px)";
+        }
+        else {
+            menuDrawer.style.transform = "translateX(0)";
+        }
+
+        this.menuIsOpen = !this.menuIsOpen;
     }
 
     courseSelected(event) {

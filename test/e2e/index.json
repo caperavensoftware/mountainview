@@ -1,0 +1,11 @@
+{
+  "test": {
+    "description": "Test Index",
+    "author": "Johan Rabie"
+  },
+  "steps": [
+    {
+      "open": ""
+    }
+  ]
+}

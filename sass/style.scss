@@ -1,4 +1,4 @@
-@import "colors";
+@import "lib/colors";
 
 body {
   font-size: 16px;
@@ -38,10 +38,25 @@ h1 {
   padding: 0;
   margin: 0;
   line-height: 3rem;
+
+  position: absolute;
+  left: 0;
+  right:0;
 }
 
 footer span {
   display: block;
   line-height: 2rem;
   text-align: center;
+}
+
+#hamburger {
+  position:absolute;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  top: 0.5rem;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
 }
