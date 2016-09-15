@@ -43,7 +43,7 @@ button:focus {
   transition: all 0.2s ease-out;
 }
 
-#courses, #seminars {
+#courses, #seminars, #seminar {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -54,7 +54,9 @@ button:focus {
   top: 2rem;
   bottom: 0;
   background: $toolbar-background;
+}
 
+#courses, #seminars {
   li {
     height: 2rem;
     background: white;
@@ -84,4 +86,11 @@ button:focus {
   will-change: transform;
   transform: translateX(381px);
   transition: all 0.2s ease-out;
+}
+
+#seminar {
+  will-change: transform;
+  transform: translateX(381px);
+  transition: all 0.2s ease-out;
+  padding: 1rem;
 }

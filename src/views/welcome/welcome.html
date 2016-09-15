@@ -17,6 +17,12 @@
         <ul id="seminars" aria-hidden="true">
             <li repeat.for="seminar of seminars" click.delegate="seminarSelected($event)" data-id.bind="seminar.Id">${seminar.Name}</li>
         </ul>
+
+        <div id="seminar" aria-hidden="true">
+            <div>${seminar.Description}</div>
+            <div><a href.bind="seminar.AudioFile">Audio</a></div>
+            <div><a href.bind="seminar.SlidesFile">Slides</a></div>
+        </div>
     </div>
 
 </template>

@@ -3,13 +3,16 @@ import { EventAggregator } from 'aurelia-event-aggregator';
 
 enum states {
     showingCourses = 1,
-    showingSeminars = 2
+    showingSeminars = 2,
+    showingSeminar = 3
 }
 
 @inject(EventAggregator)
 export class Welcome {
+    course;
     @bindable courses;
     @bindable seminars;
+    @bindable seminar;
     @bindable currentTitle;
     eventAggregator;
     menuSubscription;
@@ -57,30 +60,52 @@ export class Welcome {
 
     seminarSelected(event) {
         const id = event.target.getAttribute('data-id');
-        console.log(id);
+        this.setSeminar(id);
     }
 
     setSeminars(id) {
-        const course = this.courses.find(function(course) {
+        this.course = this.courses.find(function(course) {
             if (course.Id == id) {
                 return course;
             }
         });
-        
-        this.seminars = course.Seminars;
-        this.currentTitle = course.Name;
+
+        this.seminars = this.course.Seminars;
+        this.currentTitle = this.course.Name;
         this.setState(states.showingSeminars);
     }
 
+    setSeminar(id) {
+        this.seminar = this.course.Seminars.find(function(seminar) {
+           if (seminar.Id == id) {
+               return seminar;
+           }
+        });
+
+        this.currentTitle = this.seminar.Name;
+        this.setState(states.showingSeminar);
+    }
+
     setState(state: states) {
-        const seminarElement = document.getElementById("seminars");
+        const seminarsElement = document.getElementById("seminars");
+        const seminarElement = document.getElementById("seminar");
         const btnBack = document.getElementById("btnBack");
 
         if (state === states.showingSeminars) {
             btnBack.classList.remove("hidden");
 
             requestAnimationFrame(() => {
-                seminarElement.style.transform = "translateX(0)";
+                if (this.seminar == null) {
+                    seminarsElement.style.transform = "translateX(0)";
+                }
+                else {
+                    seminarsElement.style.transform = "translateX(381px)";
+                }
+            })
+        }
+        else if (state === states.showingSeminar) {
+            requestAnimationFrame(() => {
+                seminarElement.style.transform = "translateX(0)"
             })
         }
         else {
@@ -88,12 +113,18 @@ export class Welcome {
             btnBack.classList.add("hidden");
 
             requestAnimationFrame(() => {
-                seminarElement.style.transform = "translateX(381px)";
+                seminarsElement.style.transform = "translateX(381px)";
             })
         }
     }
 
     back() {
-        this.setState(states.showingCourses);
+        if (this.seminar) {
+            this.setState(states.showingSeminars);
+            this.seminar = null;
+        }
+        else {
+            this.setState(states.showingCourses);
+        }
     }
 }

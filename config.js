@@ -90,7 +90,6 @@ System.config({
       "npm:aurelia-templating@1.0.0/aurelia-templating.js"
     ]
   },
-
   map: {
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0",
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.0",
