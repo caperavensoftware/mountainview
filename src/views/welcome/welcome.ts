@@ -9,11 +9,12 @@ enum states {
 
 @inject(EventAggregator)
 export class Welcome {
-    course;
+    @bindable course;
     @bindable courses;
     @bindable seminars;
     @bindable seminar;
     @bindable currentTitle;
+    @bindable pauseText;
     eventAggregator;
     menuSubscription;
     menuIsOpen = true;
@@ -128,7 +129,7 @@ export class Welcome {
         }
     }
 
-    closeMedia() {
+    closeMedia(event) {
         document.getElementById("media").style.display = "none";
         (<any>document.getElementById("audio")).pause();
     }
@@ -137,5 +138,18 @@ export class Welcome {
         const audio = event.target.getAttribute("data-audio");
         document.getElementById("media").style.display = "block";
         document.getElementById("audio").setAttribute("src", audio);
+        this.pauseText = "pause";
+    }
+
+    pause() {
+        if (this.pauseText === "play")
+        {
+            (<any>document.getElementById("audio")).play();
+            this.pauseText = "pause";
+        }
+        else {
+            (<any>document.getElementById("audio")).pause();
+            this.pauseText = "play";
+        }
     }
 }

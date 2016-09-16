@@ -26,7 +26,17 @@
     </div>
 
     <div id="media">
-        <div id="closeMedia" click.delegate="closeMedia($event)"></div>
+
+        <div class="listen-details">
+            <div>You are listening to:</div>
+            <h2>${course.Name}</h2>
+            <h3>${seminar.Name}</h3>
+            <div>${seminar.Description}</div>
+            <a href="#" click.delegate="pause($event)">${pauseText}</a>
+        </div>
+
+        <div id="closeMedia" click.delegate="closeMedia()"></div>
+
         <audio id="audio" autoplay>
         </audio>
     </div>
