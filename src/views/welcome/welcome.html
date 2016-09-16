@@ -20,9 +20,15 @@
 
         <div id="seminar" aria-hidden="true">
             <div>${seminar.Description}</div>
-            <div><a href.bind="seminar.AudioFile">Audio</a></div>
+            <div><a href="#" data-audio.bind="seminar.AudioFile" click.delegate="playAudio($event)">Audio</a></div>
             <div><a href.bind="seminar.SlidesFile">Slides</a></div>
         </div>
+    </div>
+
+    <div id="media">
+        <div id="closeMedia" click.delegate="closeMedia($event)"></div>
+        <audio id="audio" autoplay>
+        </audio>
     </div>
 
 </template>

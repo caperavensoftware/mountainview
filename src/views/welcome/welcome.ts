@@ -99,7 +99,8 @@ export class Welcome {
                     seminarsElement.style.transform = "translateX(0)";
                 }
                 else {
-                    seminarsElement.style.transform = "translateX(381px)";
+                    seminarElement.style.transform = "translateX(381px)";
+                    this.seminar = null;
                 }
             })
         }
@@ -121,10 +122,20 @@ export class Welcome {
     back() {
         if (this.seminar) {
             this.setState(states.showingSeminars);
-            this.seminar = null;
         }
         else {
             this.setState(states.showingCourses);
         }
+    }
+
+    closeMedia() {
+        document.getElementById("media").style.display = "none";
+        (<any>document.getElementById("audio")).pause();
+    }
+
+    playAudio(event) {
+        const audio = event.target.getAttribute("data-audio");
+        document.getElementById("media").style.display = "block";
+        document.getElementById("audio").setAttribute("src", audio);
     }
 }
